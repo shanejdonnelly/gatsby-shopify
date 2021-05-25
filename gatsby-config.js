@@ -6,8 +6,9 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
-        shopName: "wink-bed-2-0",
-        accessToken: "",
+        storeUrl: "shanes-gatsby-trial.myshopify.com",
+        password: "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",
+        apiKey: "940531e011a3dc0a43b8ede08ad9efa5",
       },
     },
     "gatsby-plugin-sass",

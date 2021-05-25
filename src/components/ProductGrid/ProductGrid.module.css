@@ -1,0 +1,28 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.product{
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.title{
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.priceTag{
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 15px;
+
+  :before {
+    content: '- ';
+  }
+}
